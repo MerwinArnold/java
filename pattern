@@ -1,0 +1,25 @@
+import java.util.*;
+public class Star {
+	
+		public static void start(int a) {
+			for(int i=0;i<=a;i++) {
+				for(int j=0;j<=i;j++) {
+					System.out.print(" ");
+				}
+				
+				
+				for(int j=(a-i);j>=0;j--) {
+					System.out.print("* ");
+				}
+				
+				System.out.println();
+			}
+			
+		}
+		public static void main(String[] args) {
+			int a=5;
+			start(a);
+			
+			
+		}
+}
