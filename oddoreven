@@ -1,0 +1,16 @@
+importjava.util.*;
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        int N = Integer.parseInt(bufferedReader.readLine().trim());
+        if(N%2==0){
+            System.out.println("Not Weird");
+        }
+        else{
+            System.out.println("Weird");
+        }
+
+        bufferedReader.close();
+    }
+}
