@@ -1,0 +1,50 @@
+public class Person {
+    private int age;	
+  
+	public Person(int initialAge) {
+  		// Add some more code to run some checks on initialAge
+       if(initialAge<0){
+           System.out.println("Age is not valid");
+                  }
+            initialAge+=3;      
+        if(initialAge>0&& initialAge<13){
+            System.out.println("You are young.");
+            
+        }          
+	}
+
+	public void amIOld() {
+        
+        if(amIOld<0){
+           System.out.println("Age is not valid");
+        }                  
+        if(amIOld>0&& amIOld<13){
+            System.out.println("You are young.");
+            
+        }  
+        amIOld+=3; 
+        if(amIOld>13&& amIOld<18){
+            System.out.println("You are teenager.");
+        }       
+        
+  		// Write code determining if this person's age is old and print the correct statement:
+        
+	}
+
+	public void yearPasses() {
+        if(yearPasses<0){
+           System.out.println("Age is not valid");
+        }         
+                 
+        if(yearPasses>18){
+            System.out.println("You are old.");
+            
+        }  
+        yearPasses+=3; 
+        if(yearPasses>18){
+            System.out.println("You are old");
+        }       
+        
+    
+  		// Increment this person's age.
+	}
